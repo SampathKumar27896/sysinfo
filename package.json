@@ -1,0 +1,19 @@
+{
+  "name": "sysinfo",
+  "version": "1.0.0",
+  "description": "Get the information about the operating system",
+  "main": "app.js",
+  "scripts": {
+    "start" : "node src/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.1",
+    "nes.css": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}

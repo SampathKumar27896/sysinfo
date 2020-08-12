@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>
+
+        </title>
+        <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+        <link rel="stylesheet" href="./css/nes.min.css">
+        <link rel="stylesheet" href="./css/index.css">
+    </head>
+    <body>
+        <ul class="nav">
+            <li>SysInfo</li>
+        </ul>
+        <div class="nes-container with-title is-centered content">
+            <p class="title">System information</p>
+            <p>Architecture : {{ architecture }}</p>
+            <P>CPU : {{ cpu.model }}</P>
+            <P>Free memory : {{ free_memory }} GB</P>
+            <P>Home directory : {{ homedir }} </P>
+            <P>Host name : {{ hostname }} </P>
+            <P>OS platform : {{ os_platform }} </P>
+            <P>OS release : {{ os_release }} </P>
+        </div>
+    </body>
+</html>
