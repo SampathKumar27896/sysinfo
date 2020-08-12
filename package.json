@@ -4,7 +4,7 @@
   "description": "Get the information about the operating system",
   "main": "app.js",
   "scripts": {
-    "start" : "node src/app.js"
+    "start" : "node app.js"
   },
   "author": "",
   "license": "ISC",
